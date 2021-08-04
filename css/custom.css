@@ -9,11 +9,11 @@
   }
 
 @media screen and (min-width: 800px) {
-      #cover {height: 600px;}
+      #cover {height: 650px;}
   }
 
 @media screen and (min-width: 1200px) {
-      #cover {height: 800px;}
+      #cover {height: 850px;}
   }
 
 
