@@ -30,7 +30,11 @@
     }
 </style>
 
+
 <body>
+
+    <!-- Overlay -->
+    <div class="w3-overlay" onclick="closeNav()" style="cursor:pointer" id="myOverlay"></div>
 
     <!-- Sidebar with image -->
     <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
@@ -55,6 +59,8 @@
     </nav>
     <img src="img/cover.jpg" class="w3-image w3-hide-large w3-hide-small" style="display:block;width:100%">
     <img src="img/cover.jpg" class="w3-image w3-hide-large w3-hide-medium" width="1000" height="1333">
+
+
 
     <!-- Page Content -->
     <div class="w3-main w3-padding-large" style="margin-left:40%">
@@ -218,10 +224,12 @@
         function openNav() {
             document.getElementById("mySidebar").style.width = "60%";
             document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
         }
 
         function closeNav() {
             document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
         }
     </script>
 
