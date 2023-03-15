@@ -243,28 +243,7 @@
         }
     </script>
 
-    <script>
-        /* Change logo and icon between black and white */
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function () {
-            var viewport_width = window.innerWidth;
-            if (viewport_width < 993) {
-                var currentScrollPos = window.pageYOffset;
-                if (currentScrollPos > 400) {
-                    document.getElementById("logo").src = "svg/logo_my_black.svg";
-                    document.getElementById("hamburger").className = "w3-button w3-top w3-xxlarge w3-text-black w3-hover-text-white w3-opacity"
-                } else {
-                    document.getElementById("logo").src = "svg/logo_my_white.svg";
-                    document.getElementById("hamburger").className = "w3-button w3-top w3-xxlarge w3-text-white w3-hover-text-black w3-opacity"
-                }
-            } else {
-                document.getElementById("hamburger").className = "w3-button w3-top w3-xxlarge w3-text-black w3-hover-text-white w3-opacity"
-            }
 
-
-            prevScrollpos = currentScrollPos;
-        }
-    </script>
 
 </body>
 
