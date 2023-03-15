@@ -3,6 +3,11 @@
 <title>Matt Yu</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="svg/logo_my_black.svg">
+<link rel="mask-icon" href="svg/logo_my_black.svg" color="#000000">
+<link rel="apple-touch-icon" href="svg/logo_my_black.svg">
+<link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,6 +33,11 @@
         background-image: url('img/cover.jpg');
         min-height: 100%;
     }
+
+    hr {
+        border-color: #555;
+    }
+
 </style>
 
 
@@ -44,8 +54,8 @@
     <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
     <nav class="w3-sidebar w3-white w3-animate-right w3-xxlarge"
         style="display:none;padding-top:150px;right:0;z-index:2;" id="mySidebar">
-        <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-white w3-xxxlarge w3-display-topright"
-            style="padding:0 12px;">
+        <a href="javascript:void(0)" onclick="closeNav()"
+            class="w3-button w3-white w3-hover-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
             <i class="fa fa-remove"></i>
         </a>
         <div class="w3-bar-block w3-center">
@@ -62,16 +72,15 @@
 
 
 
+
     <!-- Page Content -->
     <div class="w3-main w3-padding-large" style="margin-left:40%">
 
-        <!-- Logo -->
-        <span id="logospan" class="w3-padding-16 w3-margin-left w3-top" style="width:auto;left:0;opacity: 0.8;"><img
-                id="logo" src="svg/logo_my_white.svg" height="30px"></span>
+
 
         <!-- Menu icon to open sidebar -->
-        <span class="w3-button w3-top w3-xxlarge w3-text-black w3-hover-text-black w3-white w3-opacity"
-            style="width:auto;right:0;" onclick="openNav()" id="hamburger"><i class="fa fa-bars"></i></span>
+        <span class="w3-button w3-top w3-xxlarge" style="width:auto;right:0;" onclick="openNav()" id="hamburger"><i
+                class="fa fa-bars"></i></span>
 
         <!-- Header -->
         <header class="w3-container w3-center" style="padding:128px 16px" id="home">
@@ -86,7 +95,7 @@
         <!-- About Section -->
         <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
             <h2>About</h2>
-            <hr class="w3-opacity">
+            <hr>
             <p>Multi-skilled IT solutions architect and operations executive with 13+ years of experience which includes
                 leading and transforming operations as well as designing and developing Intelligent Automation and
                 low-code applications across various industries, inclusive of shared services operations.</p>
@@ -95,46 +104,46 @@
                 Operations Manager leading a 110-FTE operations team.</p>
 
             <p>Recent work include: <br>
-                <span class="w3-tag w3-padding w3-round-large w3-gray w3-center w3-margin-right w3-margin-top">
+                <span class="w3-tag w3-padding w3-round-large w3-indigo w3-center w3-margin-right w3-margin-top">
                     Automation Architect for US Automotive company
                 </span><br>
-                <span class="w3-tag w3-padding w3-round-large w3-gray w3-center w3-margin-right w3-margin-top">
+                <span class="w3-tag w3-padding w3-round-large w3-indigo w3-center w3-margin-right w3-margin-top">
                     Power Apps Architect and Developer for Global Software company
                 </span><br>
-                <span class="w3-tag w3-padding w3-round-large w3-gray w3-center w3-margin-right w3-margin-top">
+                <span class="w3-tag w3-padding w3-round-large w3-indigo w3-center w3-margin-right w3-margin-top">
                     Power Apps Developer for Global Consulting firm
                 </span><br>
-                <span class="w3-tag w3-padding w3-round-large w3-gray w3-center w3-margin-right w3-margin-top">
-                    Intelligent Automation & Power Platform SME for Business Development
+                <span class="w3-tag w3-padding w3-round-large w3-indigo w3-center w3-margin-right w3-margin-top">
+                    Business Development SME for Intelligent Automation & Power Platform offerings
                 </span>
             </p>
 
             <p>Featured skills: <br>
-                <span class="w3-tag w3-padding w3-round-large w3-red w3-center w3-margin-right w3-margin-top">
+                <span class="w3-tag w3-padding w3-round-large w3-blue w3-center w3-margin-top">
                     Power Platform
                 </span>
-                <span class="w3-tag w3-padding w3-round-large w3-pink w3-center w3-margin-right w3-margin-top">
+                <span class="w3-tag w3-padding w3-round-large w3-blue w3-center w3-margin-top">
                     Power Apps
                 </span>
-                <span class="w3-tag w3-padding w3-round-large w3-purple w3-center w3-margin-right w3-margin-top">
+                <span class="w3-tag w3-padding w3-round-large w3-blue w3-center w3-margin-top">
                     Power Automate
                 </span>
-                <span class="w3-tag w3-padding w3-round-large w3-deep-purple w3-center w3-margin-right w3-margin-top">
+                <span class="w3-tag w3-padding w3-round-large w3-blue w3-center w3-margin-top">
                     AI Builder
                 </span>
-                <span class="w3-tag w3-padding w3-round-large w3-indigo w3-center w3-margin-right w3-margin-top">
+                <span class="w3-tag w3-padding w3-round-large w3-blue w3-center w3-margin-top">
                     Power Automate Desktop
                 </span>
-                <span class="w3-tag w3-padding w3-round-large w3-blue w3-center w3-margin-right w3-margin-top">
+                <span class="w3-tag w3-padding w3-round-large w3-blue w3-center w3-margin-top">
                     Dataverse
                 </span>
-                <span class="w3-tag w3-padding w3-round-large w3-light-blue w3-center w3-margin-right w3-margin-top">
+                <span class="w3-tag w3-padding w3-round-large w3-blue w3-center w3-margin-top">
                     Azure
                 </span>
-                <span class="w3-tag w3-padding w3-round-large w3-cyan w3-center w3-margin-right w3-margin-top">
+                <span class="w3-tag w3-padding w3-round-large w3-blue w3-center w3-margin-top">
                     UiPath
                 </span>
-                <span class="w3-tag w3-padding w3-round-large w3-aqua w3-center w3-margin-right w3-margin-top">
+                <span class="w3-tag w3-padding w3-round-large w3-blue w3-center w3-margin-top">
                     AWS
                 </span>
             </p>
@@ -153,7 +162,7 @@
 
             <p>I enjoy traveling, tennis, badminton, scuba diving, skiing & hazy IPAs.</p>
 
-            <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+            <div class="w3-row w3-center w3-indigo w3-padding-16 w3-section">
                 <div class="w3-quarter w3-section">
                     <span class="w3-xlarge">110+</span><br>
                     FTEs led
@@ -199,7 +208,7 @@
         <!-- Contact Section -->
         <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
             <h2>Contact</h2>
-            <hr class="w3-opacity">
+            <hr>
 
             <div class="w3-section">
                 <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Seattle, US</p>
@@ -209,7 +218,7 @@
         </div>
 
         <!-- Footer -->
-        <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+        <footer class="w3-container w3-padding-64 w3-black w3-center w3-opacity w3-xlarge" style="margin:-24px">
             <a href="https://www.linkedin.com/in/mattryanyu/">
                 <i class="fa fa-linkedin"></i>
             </a>
